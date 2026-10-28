@@ -1,0 +1,25 @@
+# ==========================================================
+# Git Ignore: SPK PILMAPRES UNIPOL (Metode MOORA)
+# ==========================================================
+
+# File Kredensial, Draf Paper & Pedoman Mentah
+docs/
+
+# SQLite WAL & Shared Memory Temporary Files
+data/*.sqlite-wal
+data/*.sqlite-shm
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / Local Overrides
+.env
+.env.local
